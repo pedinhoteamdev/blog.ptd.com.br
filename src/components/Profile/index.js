@@ -31,8 +31,10 @@ const Profile = () => {
         <S.ProfileWrapper>
             <S.ProfileLink>
                 <Avatar/>
+                <S.TextWrapper>
                 <S.ProfileAuthor>{title}</S.ProfileAuthor>
                 <S.ProfilePosition>{position}</S.ProfilePosition>
+                </S.TextWrapper>
             </S.ProfileLink>
             <S.ProfileDescription>{description}</S.ProfileDescription>
         </S.ProfileWrapper>

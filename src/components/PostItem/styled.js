@@ -1,13 +1,21 @@
 import styled from "styled-components"
+import media from 'styled-media-query'
 import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
   color: #8899a6;
   display: flex;
   text-decoration: none;
+
   &:hover {
     color: #1fa1f2;
   }
+
+  ${media.lessThan("medium")`
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  `}
 `
 
 export const PostItemWrapper = styled.section`
@@ -30,12 +38,25 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
   text-transform: uppercase;
+
+  ${media.lessThan("medium")`
+    border-radius: 0;
+    font-size: 1rem;
+    min-height: auto;
+    min-width: auto;
+    padding: .2rem .5rem;
+    margin-bottom: .7rem;
+  `}
 `
 
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
+
+  ${media.lessThan("medium")`
+    margin: 0;
+  `}
 `
 
 export const PostItemDate = styled.time`

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const PaginationWrapper = styled.section`
   align-items: center;
@@ -15,4 +16,9 @@ export const PaginationWrapper = styled.section`
       color: #1fa1f2;
     }
   }
+
+  ${media.lessThan("medium")`
+    font-size: .8rem;
+    padding: 1rem;
+  `}
 `

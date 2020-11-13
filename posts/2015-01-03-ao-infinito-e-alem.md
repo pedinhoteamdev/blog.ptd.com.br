@@ -4,6 +4,7 @@ title: Ao Infinito e Alem
 description: Bora machu.
 category: JS
 background: "pink"
+image: "/assets/img/girassol.jpg"
 ---
 
 # Lorem ipsum
@@ -11,8 +12,10 @@ background: "pink"
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
 ```javascript
-a=3
-puts a
+import React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 ```
 
 ## Fusce a metus eu
@@ -21,6 +24,8 @@ Pellentesque `sed` sapien lorem, at lacinia urna. In hac habitasse platea dictum
 
 > Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
 Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.
+
+![Aqui fica uma descrição bem maneira](/assets/img/girassol.jpg)
 
 ### Cras semper consectetur elementum
 

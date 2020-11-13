@@ -9,7 +9,7 @@ const MenuLinks = () => (
     <S.MenuLinksList>
       {links.map((link, i) => (
         <S.MenuLinksItem key={i}>
-          <S.MenuLinksLink to={link.url} activeClassName="active">
+          <S.MenuLinksLink to={link.url} paintDrip duration={0.6} hex="#16202c" activeClassName="active">
             {link.label}
           </S.MenuLinksLink>
         </S.MenuLinksItem>
