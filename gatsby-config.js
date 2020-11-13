@@ -87,8 +87,8 @@ module.exports = {
         name: `Pedrinho Team Dev`,
         short_name: `PTD`,
         start_url: `/`,
-        background_color: `#16202c`,
-        theme_color: `#16202c`,
+        background_color: `var(--background)`,
+        theme_color: `var(--background)`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
