@@ -2,7 +2,6 @@ backend:
   name: github
   repo: pedinhoteamdev/blog.ptd.com.br
   branch: main
-  site_domain: https://ptdev.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
