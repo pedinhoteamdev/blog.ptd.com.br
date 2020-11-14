@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
     //Pra funcionar precisa sempre ser o primeiro :D
     {
       resolve: `gatsby-source-filesystem`,
